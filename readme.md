@@ -5,31 +5,20 @@
 
 1.[Description](#description)
 2.[Installation](#installation)
-3.[Usage](#usage)  
-4.[Contributions Guide Lines](#contributions-guide-lines) 
-5.[Test Instructions](#test-instructions)
-6.[License](#license)  
-7.[Questions](#questions)  
+3.[Usage](#usage  
+4.[Questions](#questions)  
 
 ## Description  
 
-A backend to upload photos to a google cloud Bucket. It uses Apollo Server, graphql, mongoDb, google cloud and node. The photos can be uploaded one or more at once, they can be deleted too. They are all saved in a mongoDb collection. There also a mutation to create the insert a document containing the files  
+A backend to upload files to a google cloud Bucket. It uses Apollo Server, graphql, mongoDb and node. The files can be uploaded one or more at once, they can be deleted too. They are all saved in a mongoDb collection. There is also a mutation to insert a document containing the files  
 
 ## Installation  
 
-dowload files then do "npm install", filewere created with node 18.14.2  
+Dowload files then do "npm install", files were created with node 18.14.2  
 
 ## Usage  
 
-the backend can be teste with the graphql studio/playground then you cna test the file upload using Altair. Open the grphql playground and then open the Altair extension.   
-
-## Contributions Guide Lines 
-
-  
-
-## Test Instructions  
-
-  
+The backend can be tested with the graphql studio/playground then you can test the file upload using Altair. Open the grphql playground by clicking on localhost:3001/grphql after lauching the server, then open the Altair extension. visit https://altairgraphql.dev/ to download Altair extension.    
 
 ## Questions  
 
